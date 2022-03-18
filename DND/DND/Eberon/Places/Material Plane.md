@@ -1,0 +1,1 @@
+![Image](Watermark_Low_res.jpg)

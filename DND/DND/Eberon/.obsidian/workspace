@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "97825061216c3a0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "440a5d6abf2086fc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Places/Five Nations/Breland.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7828d9006624becc",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c8f4e6b614ec40c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3835a7114bc801e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "277e8e11bbb7f24a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "244c2444fc9641ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "de0392f8a6dd055c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c3025cb915a2847",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Places/Five Nations/Breland.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "440a5d6abf2086fc",
+  "lastOpenFiles": [
+    "Places/Five Nations/Breland.md",
+    "Places/Eberron, Place.md",
+    "Places/Material Plane.md",
+    "Places/Sharn, City of Towers.md",
+    "Places/Khorvaire.md",
+    "NPCs/Progenitor Dragons/Siberys.md",
+    "NPCs/Progenitor Dragons/Eberron.md",
+    "NPCs/Progenitor Dragons/Khyber.md",
+    "Places/Five Nations/Karrnath.md",
+    "Places/Five Nations/Thrane.md"
+  ]
+}
