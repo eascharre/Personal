@@ -1,0 +1,23 @@
+/*Data Types Lesson*/
+// primative stored in variable location
+// reference ata types referenced from the heap
+
+/*
+primative types:
+    string
+    number
+    boolean
+    null
+    undefined - default
+    symbols (E6) 
+
+reference types = objects:
+    arrays
+    object literals
+    functions
+    dates
+    anything else...
+
+types are dependent on values not variables- dynamically typed
+
+*/

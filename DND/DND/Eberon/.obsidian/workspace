@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "440a5d6abf2086fc",
+        "id": "f8127ac010fd29c8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Places/Five Nations/Breland.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Places/Five Nations/Breland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "440a5d6abf2086fc",
+  "active": "f8127ac010fd29c8",
   "lastOpenFiles": [
     "Places/Five Nations/Breland.md",
     "Places/Eberron, Place.md",
