@@ -7,8 +7,12 @@
         "id": "f8127ac010fd29c8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Scald (Sam).md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Scald (Sam).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "f8127ac010fd29c8",
   "lastOpenFiles": [
-    "Places/Five Nations/Breland.md",
-    "Places/Eberron, Place.md",
-    "Places/Material Plane.md",
-    "Places/Sharn, City of Towers.md",
+    "Scald (Sam).md",
+    "PCs/Elrol Smiler Kelly.md",
+    "PCs/Bartleby (Kenny).md",
     "Places/Khorvaire.md",
-    "NPCs/Progenitor Dragons/Siberys.md",
-    "NPCs/Progenitor Dragons/Eberron.md",
-    "NPCs/Progenitor Dragons/Khyber.md",
-    "Places/Five Nations/Karrnath.md",
-    "Places/Five Nations/Thrane.md"
+    "PCs/Links/bart.png",
+    "PCs/Cleo (Abby).md",
+    "PCs/Vanya Carcan (Bri).md",
+    "PCs/Toz (Lydia).md",
+    "NPCs/Crime/Boromar Clan.md",
+    "Places/Eberron, Place.md"
   ]
 }
