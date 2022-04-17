@@ -259,3 +259,280 @@ xvar = str.replace('Brad', 'Jack')
 xvar = str.includes('hello'); //checks if hello is in string
 //output
 console.log(xvar);
+
+//Template Literals
+const named = 'John';
+const aged = 29;
+const job = 'web';
+const city = 'miami';
+let html;
+
+//without tempate strings (es5)
+html = '<ul><li>Name:' + named + '</li><li>Age: ' + aged + '</li><li>Job: ' + job + '</li><li>City: ' + city +'</li></ul>';
+
+//with template strings (es6)
+//just an example function 
+function hello(){
+    return 'hello';
+}
+html = `
+<ul>
+    <li>Name: ${name}</li>
+    <li>Age: ${aged}</li>
+    <li>City: ${city}</li>
+    <li>Job: ${job}</li>
+    <li>${2+2}</li>
+    <li>${hello()}</li>
+    <li>${aged > 30 ? 'Over 30' : 'Under 30'}</li>
+</ul>
+`
+//output to live 
+document.body.innerHTML = html;
+
+//Arrays and Array Methods
+const numbered = [43, 56, 33, 23, 44, 5];
+const num3 = new Array(22,45,33,76,45);
+const fruits = ['Apple', 'Ban', 'Pine'];
+const mixed = [22, 'hello', true, undefined, null, {a:1, b:2}, new Date()];
+
+let vals;
+
+//get array lengths
+vals = numbered.length;
+
+//array check
+vals = Array.isArray(numbered);
+
+//get signle value
+vals = numbered[0];
+
+//insert into array
+numbered[2] = 100;
+//find index
+vals = numbered.indexOf(100);
+
+//appending array
+numbered.push(250);
+
+//append to the front of array
+numbered.unshift(120);
+
+//pop (from end)
+numbered.pop();
+
+//shift (from front)
+numbered.shift()
+
+//splice (any point in array)
+numbered.splice(1,3); //start to end
+
+//flip array
+numbered.reverse();
+
+//concat
+vals = numbered.concat(num3);
+
+//sort
+vals = fruits.sort();
+vals = numbered.sort() //not right
+
+//compare
+//smallest to largest
+vals = numbered.sort(function (x,y){
+    return x -y
+})
+//largest to biggest
+vals = numbered.sort(function (x,y){
+    return y - x
+})
+
+//find
+function under50(num){
+    return num < 50
+}
+vals = numbered.find(under50)
+console.log(numbered);
+console.log(vals);
+
+//Object Literals
+const persond = {
+    firstNames: 'Steve',
+    lastNames: 'Smith',
+    agged: '30',
+    email: 'steve@gmaol.com',
+    addressed: {
+        city: 'Miami',
+        state: 'IN'
+    },
+    getBithyear: function(){
+        return 2017 - this.agged;
+    }
+}
+
+let vald;
+vald = persond;
+
+//get specific value
+vald = persond.firstNames;
+vald = persond['lastNames'];
+vald = persond.agged;
+vald = persond.addressed.state;
+vald = persond.getBithyear();
+
+//loops
+const people = [
+    {name: 'John', age: 30},
+    {name: 'Mike', age: 23},
+    {name: 'Nacy', age: 40}
+]
+
+for(let i = 0; i <people.length; i++){
+    console.log(people[i].name)
+}
+console.log(vald)
+
+//Dates and Times
+console.clear()
+let valf;
+
+const todays = new Date();
+let birthday = new Date('9-10-1981 11:25:00');
+birthday = new Date('Sept 10 1981')
+
+valf = todays.getMonth();
+
+//can do getDate, get Day, get FullYear, getHours, getMinutes...
+
+//set time similar to get...
+birthday.setMonth(2);
+
+
+valf = birthday;
+
+
+console.log(valf)
+
+//if statements
+console.clear()
+const id = 100;
+
+//equal to
+if(id == 100){
+    console.log('Correct')
+} else {
+    console.log('Incorrect')
+}
+//not equal to
+if(id != 100){
+    console.log('Incorrect')
+} else {
+    console.log('Correct')
+}
+
+//equal to value and type
+if(id === 100){
+    console.log('Correct')
+} else {
+    console.log('Incorrect')
+}
+
+//test for undefined
+if(id){
+    console.log(`The ID is ${id}`)
+} else {
+    console.log('No ID')
+}
+
+//greater than or less than
+if(id > 200){
+    console.log('Correct')
+} else {
+    console.log('Incorrect')
+}
+
+//ifelse
+const color = 'yellow';
+
+if(color === 'yellow'){
+    console.log('Color is yellow')
+} else if(color === 'red'){
+    console.log('Color is red')
+} else {
+    console.log('No color')
+}
+
+//logical operators are the same
+
+//switches
+switch(color){
+    case 'red':
+        console.log('Color is red')
+    case 'blue':
+        console.log('Color is blue')
+        break
+    default:
+        console.log('Color is not red or blue')
+}
+let dayd;
+
+switch(new Date().getDay()){
+    case 0:
+        dayd = 'Sunday'
+        break
+    case 1:
+        dayd = 'Monday'
+        break
+    case 2:
+        dayd = 'Tuesday'
+        break
+    case 3:
+        dayd = 'Wednesday'
+        break
+}
+console.log(dayd)
+
+//For Loops
+console.clear()
+for(let i=0; i < 10; i++){
+    console.log(i);
+}
+//contine skips the iteration without breaking
+//break breaks
+
+//while loop
+console.clear();
+let i = 0;
+while(i<10){
+    console.log(i)
+    i++;
+}
+
+//do while
+console.clear();
+i = 0;
+do {
+    console.log(i);
+    i++
+}
+while(i <10);
+
+//For each
+
+const cared = ['Ford', 'Chevy', 'Toyot'];
+cared.forEach(function(cared){
+    console.log(cared);
+})
+
+//Map
+const users =[
+    {id: 1, name:'John'},
+    {id: 2, name:'Sara'},
+    {id: 3, name:'Joe'},
+    {id: 4, name:'Sam'}
+]
+
+const ids = users.map(function(users){
+    return users.id;
+});
+
+console.log(ids)
