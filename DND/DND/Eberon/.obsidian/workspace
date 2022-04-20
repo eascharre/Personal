@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PCs/Lemit Hinnit (Camilla).md",
+            "file": "Adventures/Masquerade Ball (1st Session).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PCs/Lemit Hinnit (Camilla).md",
+                "file": "Adventures/Masquerade Ball (1st Session).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f8127ac010fd29c8",
   "lastOpenFiles": [
+    "Adventures/Masquerade Ball (1st Session).md",
+    "NPCs/Fools/Tiffany.md",
+    "Untitled.md",
+    "Places/Links/Pasted image 20220416142222.png",
+    "NPCs/Crime/Boromar Clan.md",
     "PCs/Lemit Hinnit (Camilla).md",
     "PCs/Scald (Sam).md",
-    "Adventures/Masquerade Ball (1st Session).md",
     "PCs/Elrol Smiler Kelly (Sophia).md",
     "Places/Sharn.md",
-    "Places/Eberron, Place.md",
-    "NPCs/Progenitor Dragons/Siberys.md",
-    "PCs/Bartleby (Kenny).md",
-    "Places/Khorvaire.md",
-    "PCs/Links/bart.png"
+    "Places/Eberron, Place.md"
   ]
 }
