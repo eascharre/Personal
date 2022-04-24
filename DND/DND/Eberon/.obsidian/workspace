@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventures/Masquerade Ball (1st Session).md",
+            "file": "Encounter/Masquerade Encounter.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventures/Masquerade Ball (1st Session).md",
+                "file": "Encounter/Masquerade Encounter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +79,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e021dab0bedb04e4",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "f8127ac010fd29c8",
   "lastOpenFiles": [
+    "Encounter/Masquerade Encounter.md",
     "Adventures/Masquerade Ball (1st Session).md",
+    "PCs/Bartleby (Kenny).md",
     "NPCs/Fools/Tiffany.md",
-    "Untitled.md",
-    "Places/Links/Pasted image 20220416142222.png",
-    "NPCs/Crime/Boromar Clan.md",
-    "PCs/Lemit Hinnit (Camilla).md",
-    "PCs/Scald (Sam).md",
-    "PCs/Elrol Smiler Kelly (Sophia).md",
-    "Places/Sharn.md",
-    "Places/Eberron, Place.md"
+    "NPCs/Court of Breland/Prince Breland.md",
+    "NPCs/Crime/Saidan Boromar.md",
+    "NPCs/City Councilors/Ilyra Boromar.md",
+    "NPCs/City Councilors/Savia Potellas.md",
+    "NPCs/City Councilors/Nolan Torank.md",
+    "NPCs/City Councilors/Bestan ir'Tonn.md"
   ]
 }
