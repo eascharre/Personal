@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Encounter/Masquerade Encounter.md",
+            "file": "Adventures/Masquerade Ball (1st Session).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encounter/Masquerade Encounter.md",
+                "file": "Adventures/Masquerade Ball (1st Session).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "id": "e021dab0bedb04e4",
+            "id": "a1e1c3071025e467",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -97,8 +97,8 @@
   },
   "active": "f8127ac010fd29c8",
   "lastOpenFiles": [
-    "Encounter/Masquerade Encounter.md",
     "Adventures/Masquerade Ball (1st Session).md",
+    "Encounter/Masquerade Encounter.md",
     "PCs/Bartleby (Kenny).md",
     "NPCs/Fools/Tiffany.md",
     "NPCs/Court of Breland/Prince Breland.md",
